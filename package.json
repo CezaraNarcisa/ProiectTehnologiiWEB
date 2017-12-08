@@ -1,0 +1,23 @@
+{
+  "name": "proiect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CezaraNarcisa/ProiectTehnologiiWEB.git"
+  },
+  "author": "Petcu Narcisa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CezaraNarcisa/ProiectTehnologiiWEB/issues"
+  },
+  "homepage": "https://github.com/CezaraNarcisa/ProiectTehnologiiWEB#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "sequelize": "^4.27.0"
+  }
+}
