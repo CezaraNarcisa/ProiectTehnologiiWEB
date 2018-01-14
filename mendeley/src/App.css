@@ -1,0 +1,74 @@
+body{
+   
+}
+
+.App {
+  text-align: left;
+  color: #300622;
+  font-size: 20px;
+   font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  background:linear-gradient(#f79bc6,#e02c65);
+}
+
+
+.h2Title{
+  text-align: center;
+      color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.h3Title{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: italic;
+   font-family: "Times New Roman", Times, serif;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  text-align: center;
+  background-color:#a0064e;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+.btt{
+  background-color: #970304;
+  border-radius: 25px;
+  transition: 0.4s;
+  opacity: 0.6;
+  font-family:"Comic Sans MS";
+  color:	#FFFFFF
+}
+.btt:hover
+{
+    opacity:1;
+}
+.util{
+  color:#106616;
+
+}
+
+input, select{
+  margin-right: 20px;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

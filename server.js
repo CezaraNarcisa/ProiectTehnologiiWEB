@@ -12,6 +12,9 @@ var sequelize = new Sequelize('mydb','root','',{
 
 var app=express()
 
+app.use(express.json());      
+app.use(express.urlencoded());
+
 sequelize.authenticate().then(function(){
     console.log('Succes')
 })
